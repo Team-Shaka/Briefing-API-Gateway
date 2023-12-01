@@ -23,7 +23,7 @@ jobs:
       - name: Checkout eureka server repository
         uses: actions/checkout@v2
         with:
-          repository: CYY1007/eureka
+          repository: Team-Shaka/Briefing-Eureka-Server
           path: eureka # Eureka 코드를 가져옴
           ref : main
 
