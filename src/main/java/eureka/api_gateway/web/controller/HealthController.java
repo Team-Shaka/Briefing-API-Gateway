@@ -15,6 +15,6 @@ public class HealthController {
 
     @GetMapping("/")
     public String welcome(){
-        return "this is api gateway!";
+        return "this is api gateway, I'm health!!";
     }
 }
